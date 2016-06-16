@@ -1,0 +1,35 @@
+EnderJump:
+   #The item(s) that when clicked will Activate the Jump Boost
+   enabled: true
+   jumpItems:
+     - 381
+   Cooldown:
+     enabled: true
+     #Use {seconds} to get the number of seconds left for the cooldown
+     cooldownMessage: '&4You cannot use the jump boost for {seconds} seconds!'
+     #Time in Seconds
+     time: 10
+   Distance:
+      #Disatance of Jump (Not Exact)
+      JumpLength: 5.0
+      #Height of Jump (Not Exact)
+      JumpHeight: 4.0
+   Food & Damage:
+      Hunger:
+        #Customize the Cost of Hunger For Jumping (In Food Bars)
+        Costs Hunger: false
+        Hunger Cost: 2.5
+      #Disable fall Damage for Players Boosting
+      Disable Fall Damage: true
+   Sound & Effects:
+      #Play a Sound when the Player Boosts
+      Sounds:
+         Enable Sounds: true
+         Sound: WITHER_SHOOT
+      #Play an Effect when the Player Boosts
+      Effects:
+         Enable Effects: true
+         Effect: SMOKE
+   Messages:
+     Enable Message: false
+     Message: '&bWEEEEEEE'

@@ -1,0 +1,25 @@
+name: EnderJump
+author: MC_Elmo
+version: 1.0
+main: me.MC_Elmo.EnderJump
+description: Create Custom Jump Boosts
+
+commands:
+   enderjump:
+      description: Basic command for Potion Effects Plugin
+      aliases: [ej]
+      usage: /<command>
+
+permissions:
+   enderjump.use:
+        description: Base Permission
+        default: op
+   enderjump.reload:
+        description: Reload EnderJump Config.
+        default: op
+   enderjump.bypassCooldown:
+        description: Bypass the plugn Cooldown!
+        default: op
+   enderjump.bypassHunger:
+           description: Bypass Hunger when Jumping!
+           default: op
